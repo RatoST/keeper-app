@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import PropTypes from 'prop-types'
 import AddCircleIcon from '@material-ui/icons/AddCircle'
 import Fab from '@material-ui/core/Fab'
 import Zoom from '@material-ui/core/Zoom'
@@ -62,6 +63,10 @@ function CreateArea (props) {
       </form>
     </div>
   )
+}
+
+CreateArea.propTypes = {
+  onAdd: PropTypes.func.isRequired
 }
 
 export default CreateArea
