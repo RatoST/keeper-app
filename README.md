@@ -1,4 +1,6 @@
 # keeper-app
 React app 
-Under construction
-npm start necessary
+App for creation and manipulation of sticky notes.
+npm modules install necessary
+npm install @material-ui/core
+npm install @material-ui/icons
